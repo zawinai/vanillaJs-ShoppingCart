@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title></title>
+          <meta name="description" content="">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+
+          <header>
+               <nav>
+                    <div class="left-menu">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                         </svg>
+                    </div>
+                  <h1>
+                    Shop<span style="color: skyblue; font-style: oblique; letter-spacing: 2px;">online</span>
+                  </h1> 
+                  <div class="nav-btn-container">
+                    <div class="search" id="search">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                         </svg>
+                    </div>
+                    <button class="cart-btn" id="open-cart">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                              <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                         </svg>
+
+                    <!-- Element selected -->
+                    <div id="qty" data-cart-icon-quantiy>
+                         
+                    </div>
+
+                    </button>
+                  </div>
+               </nav>
+          </header>
+
+          <article data-breadcrumbs class="breadcrumb-menu" >
+               <div data-option = "hot" class="select">Hot sales</div>
+               <div data-option = "new">New arrivals</div>
+               <div data-option = "collection">collection</div>
+          </article>
+
+          <main>
+
+               <div class="content-container">
+
+                    <div class="cards-container" data-product-container>
+
+                         <!-- Card Tempate Here -->
+
+                    </div>
+
+               </div>    
+
+               <div class="menu-container">
+                    <ul class="category-list">
+                         Categories
+                         <li class="list-items">Hoodies</li>
+                         <li class="list-items">T-shirts</li>
+                         <li class="list-items">Backpacks</li>
+                         <li class="list-items">Shoe</li>
+                         <li class="list-items">Casual</li>
+                    </ul>
+                    <ul>Contact Us           
+                         <li>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                   <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                              </svg>
+                         </li>
+                         <li>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                              </svg>
+                         </li>
+                         <li>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+                                   <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+                              </svg>
+                         </li>
+                    </ul>
+                    <ul>About Us
+                         <li>Location</li>
+                         <li>Testimonials</li>
+                         <li>Our clients</li>
+                    </ul>
+               </div>
+
+          </main>
+
+          <dialog class="modal" id="modal" close>
+               <div class="close-modal" id="close-modal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-square" viewBox="0 0 16 16">
+                         <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                         <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+               </div>
+
+               
+               <div class="modal-container" data-product-detail>
+
+                    <div data-detail class="modal-detail-container">
+
+                              <div class="img-container">
+                                   <img src="images/backpack-1.png" alt="product" class="product-detail-image" data-image>
+                                   <div class="variant-imgs">
+                                        <img src="images/backpack-1.png" alt="product" class="product-variant-detail-image">
+                                        <img src="images/backpack-1.png" alt="product" class="product-variant-detail-image">
+                                        <img src="images/backpack-1.png" alt="product" class="product-variant-detail-image">
+                                   </div>                    
+                              </div>
+               
+                              <div class="detail-description-container">
+                                   <div class="title-price-container">
+                                        <div data-name>Backpack</div>
+                                        <div data-price>$12.00</div>
+                                   </div>
+                                   <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam itaque, debitis dolore nam ipsam ducimus blanditiis labore quaerat, animi eum quibusdam sed odio aspernatur, consequatur facilis in cumque veniam. Quasi?
+                                   </p>
+                              </div>
+                    </div>
+
+               </div>
+
+               <div class="purchase-btn-container" >
+                    <!-- ELement Selcted -->
+                    <button class="add-to-cart" id="add-to-cart" data-add-to-cart>Add to cart</button>
+                    <button class="buy-now" data-add-to-cart>Buy Now</button>
+               </div>
+
+          </dialog>
+
+          <aside class="cart-container" id="cart">
+
+               <div class="cart" >
+                    <button style="border: none; background-color: transparent; cursor: pointer;" id="cart-close"    >
+                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="black" class="bi bi-x-square" viewBox="0 0 16 16">
+                              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                         </svg>
+                    </button>
+
+                    <div>
+                         <h2 style="color: #222; text-align: center;" id="cart-title" data-cart-title>Cart</h2>
+                    </div>
+
+                    <div data-template-parent >
+
+                         <!-- Cart Template Here -->
+                         
+                    </div>
+
+                    <div data-total-template-parent>
+                         <div class="total-container" data-total-container>
+                              <h1>Total : <span data-total-price></span></h1>
+                              <div> <span data-total-quantity>: Items</span></div>
+                              <button  class="check-out" data-checkout>
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                                        <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                   </svg>
+                                   Check Out Here
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                   </svg>
+                              </button>
+                         </div>
+                    </div>
+                    
+
+               </div>
+
+          </aside>
+
+          <!-- Templates -->
+
+          <!-- Cart -->
+          <template class="card" id="card">
+               <div id="card-id">
+                    <div class="img-label-container" data-id>
+
+                         <img src="./images/backpack-1.png" alt="product" class="product-img" data-image>
+
+                         <!-- <div class="incart-label" data-incart>In Cart</div> -->
+                         
+                    </div>
+                    
+                    <div class="description-contanier">
+                         <div data-name>
+                              
+                         </div>
+                         <div data-price>
+                              
+                         </div>
+                    </div>
+               </div>
+          </template>
+
+           <!-- Cart Card Template -->
+
+           <template class="cart-product-container" data-cart-template>
+               <div class="cart-card">
+                    <img src="images/backpack-1.png" alt="cart" class="cart-product-img" data-cart-img>
+                    <div class="detail-container">
+                         <div>Item name : <span data-cart-name></span></div>
+                         <div>Price : <span data-cart-price>&#36;</span></div>
+                         <div>Variant : <span>wb-sm</span></div>
+                    </div>
+                    <div class="qty-btn-container" data-qty-btn-container>
+                         <button data-qty = "increase">+</button>
+                         <div data-quantity></div>
+                         <button data-qty = "decrease">-</button>   
+                    </div>
+               </div>
+          </template>
+
+          <!-- Total container template -->
+          
+
+          <script type="module" src="app.js" async defer></script>
+     </body>
+</html>

@@ -1,0 +1,53 @@
+{"items" :
+[
+     {
+          "id" : 1,
+          "name" : "Backpack",
+          "price" : 232.00,
+          "image" : "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "variants" : []
+     },
+     {
+          "id" : 2,
+          "name" : "Nike Cap",
+          "price" : 15.00,
+          "image" : "https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "variants" : []
+     },
+     {
+          "id" : 3,
+          "name" : "Female Hoodie",
+          "price" : 83.00,
+          "image" : "https://images.pexels.com/photos/7479808/pexels-photo-7479808.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "variants" : []
+     },
+     {
+          "id" : 4,
+          "name" : "Hoodie",
+          "price" : 99.00,
+          "image" : "https://images.pexels.com/photos/5474310/pexels-photo-5474310.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "variants" : []
+     },
+     {
+          "id" : 5,
+          "name" : "Jean Pant",
+          "price" : 150.00,
+          "image" : "https://images.pexels.com/photos/4210864/pexels-photo-4210864.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "variants" : []
+     },
+     {
+          "id" : 6,
+          "name" : "Causal Shoe",
+          "price" : 132.00,
+          "image" : "https://images.pexels.com/photos/14525660/pexels-photo-14525660.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "variants" : []
+     },
+     {
+          "id" : 7,
+          "name" : "T-shirt",
+          "price" : 39.00,
+          "image" : "https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "variants" : []
+     }
+]
+}
